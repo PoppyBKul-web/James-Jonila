@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Translator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<header><h1>Pidgin Translator</h1></header>
+
+<nav>
+  <a class="button" href="home.html">Home</a>
+  <a class="button" href="audio.html">Audios</a>
+  <a class="button" href="translater.html">Translator</a>
+  <a class="button" href="aboutus.html">About Us</a>
+</nav>
+
+<section>
+  <h2>Translate English to Tok Pisin</h2>
+  <p>Type in any English word or phrase and click Translate. The system will convert it into Tok Pisin using our dictionary. This tool is designed to help learners explore everyday Tok Pisin vocabulary.</p>
+
+  <form id="translationForm">
+    <textarea id="englishText" rows="3" cols="50" placeholder="Type English text here..." required></textarea>
+    <br>
+    <input type="submit" class="button" value="Translate">
+  </form>
+
+  <div id="result" class="result">In Tok Pisin:</div>
+</section>
+
+<footer>
+  <p>&copy; JamesWebsite.com — Produced by <strong>Jonila James</strong> for Semester 1 School Project</p>
+</footer>
+</div>
+
+<script src="translator.js"></script>
+</body>
+</html>
